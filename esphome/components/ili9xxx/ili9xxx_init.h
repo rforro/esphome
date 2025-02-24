@@ -419,7 +419,6 @@ static const uint8_t PROGMEM INITCMD_GC9D01N[] = {
   0xF1, 6, 0x56, 0xA8, 0x7F, 0x33, 0x34, 0x5F,    // SET_GAMMA2 (F1h)
   0xF2, 6, 0x53, 0x15, 0x0A, 0x04, 0x00, 0x3A,    // SET_GAMMA3 (F2h)
   0xF3, 6, 0x52, 0xA4, 0x7F, 0x33, 0x34, 0xDF,    // SET_GAMMA4 (F3h)
-  ILI9XXX_MADCTL, 1, 0x00,    // Memory Access Control(36h)
   ILI9XXX_SLPOUT, 0x80,       // Sleep Out Mode (11h)
   ILI9XXX_DISPON, 0,          // Display ON (29h)
   ILI9XXX_DELAY(20),
